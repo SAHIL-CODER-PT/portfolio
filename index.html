@@ -3,17 +3,32 @@
       <div className="max-w-4xl w-full bg-white shadow-lg rounded-2xl p-8">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">Sahil Yunus Patel</h1>
         <p className="text-center text-gray-600">Mechanical Engineering Student | Aspiring Innovator</p>
-<a 
+
+          <a 
   href="https://raw.githubusercontent.com/SAHIL-CODER-PT/portfolio/main/Sahil_Patel_Resume.pdf"
   download="Sahil_Patel_Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
-  className="flex items-center gap-2 bg-blue-600 text-white px-3 py-2 rounded-md shadow-md hover:bg-blue-700 transition-transform hover:scale-105 text-sm"
+  style="
+    display: inline-flex; 
+    align-items: center; 
+    gap: 6px; 
+    background-color: #2563EB; 
+    color: white; 
+    padding: 8px 12px; 
+    border-radius: 6px; 
+    font-size: 14px; 
+    font-weight: 500; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+  "
+  onmouseover="this.style.backgroundColor='#1E40AF'; this.style.transform='scale(1.05)';"
+  onmouseout="this.style.backgroundColor='#2563EB'; this.style.transform='scale(1)';"
 >
-  <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M12 5v14m6-6l-6 6-6-6M5 19h14" />
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 5v9m6-6-6 6-6-6M5 19h14"/>
   </svg>
-  <span className="font-medium">Download Resume</span>
+  Download Resume
 </a>
 
 
